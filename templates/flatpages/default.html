@@ -1,0 +1,6 @@
+{#{% extends 'article/index.html' %}#}
+{% load markdown_deux_tags %}
+{% block flatpage %}
+
+<p>{{ flatpage.content|markdown }}</p>
+{% endblock %}

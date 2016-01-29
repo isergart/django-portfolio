@@ -1,0 +1,6 @@
+.idea/*
+/static/*
+/portfolio/migrations/*
+/mysite/settings/local.py
+/mysite/gunicorn.conf.py
+__pycache__/
